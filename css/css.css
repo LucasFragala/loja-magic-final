@@ -244,3 +244,36 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.vitrine li{
+    width: 155px;
+    margin: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vitrine a{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.vitrine figure{
+    margin-bottom: 10px;
+}
+
+.vitrine span{
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vitrine input{
+    width: 92px;
+    height: 33px;
+    background: url(../imagens/comprar.png) no-repeat;
+    border: 0;
+    margin-top: 10px;
+}

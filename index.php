@@ -20,7 +20,7 @@
         </section><!-- FIM CORPO -->
 
         <footer id="rodape">
-
+            <?php include_once ("rodape.php"); ?>
         </footer><!-- FIM RODAPE -->
 
     </div> <!-- FIM PRINCIPAL -->
