@@ -16,7 +16,7 @@
         </section><!-- FIM TOPO -->
 
         <section id="corpo">
-            <?php include_once ("home.php"); ?>
+            <?php include_once ("detalhe.php"); ?>
         </section><!-- FIM CORPO -->
 
         <footer id="rodape">
