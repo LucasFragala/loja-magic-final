@@ -226,6 +226,7 @@ body{
     width: 710px;
     height: auto;
     border: solid 1px #ccc;
+    float: left;
 }
 
 .vitrine h2{
@@ -276,6 +277,7 @@ body{
     background: url(../imagens/comprar.png) no-repeat;
     border: 0;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 #rodape{
@@ -296,4 +298,126 @@ body{
 
 .limpa{
     clear:both;
+}
+
+#cx-img-produto{
+    width: 310px;
+    height: 385px;
+    border: solid 1px #ccc;
+    padding: 1px;
+    background: white;
+    margin-right: 10px;
+    float: left;
+}
+
+#cx-img-produto img{
+    border: 0;
+}
+
+#cx-titulo-produto{
+    width: 370px;
+    height: 110px;
+    float: left;
+    border: solid 1px #ccc;
+    background: white;
+}
+
+#cx-titulo-produto h1{
+    padding: 5px;
+}
+
+#cx-titulo-produto a{
+    color: #333;
+    font-size: 22px;
+}
+
+#cx-titulo-produto a:hover{
+    color: red;
+}
+
+#cx-preco-produto{
+    width: 370px;
+    height: 45px;
+    float: left;
+    border: solid 1px #ccc;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+    background: white;
+}
+
+#cx-preco-produto strong{
+    color: #333;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#cx-preco-produto span{
+    font-size: 18px;
+}
+
+.duracao-autor{
+    width: 185px;
+    height: 43px;
+    border: solid 1px #ccc;
+    float: left;
+    margin-top: 10px;
+    background: white;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.duracao-autor h3{
+    font-size: 12px;
+    height: 60px;
+    padding-right: 5px;
+    background: url(../imagens/clok.png) no-repeat top left;
+
+}
+
+.duracao-autor h4{
+    background: url(../imagens/boneco.png) no-repeat top left;
+    padding-right: 5px;
+}
+
+.duracao-autor span{
+    padding-left: 20px;
+}
+
+#descricao-rapida{
+    width: 370px;
+    height: 150px;
+    border: solid 1px #ccc;
+    float: left;
+    margin-top: 10px;
+    background: white;
+    color: #666;
+    font-size: 12px;
+}
+
+#descricao-rapida h2{
+    width: 368px;
+    height: 30px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#comprar-produto{
+    width: 690px;
+    height: 45px;
+    border: solid 1px #ccc;
+    float: left;
+    margin-top: 10px;
+    background: white;
+    padding-top: 4px;
+    text-align: right;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+#comprar-produto input{
+    margin-top: 0;
+    width: 176px;
+    height: 40px;
+    background: url(../imagens/but-compra-curso.png) no-repeat top right;
 }
