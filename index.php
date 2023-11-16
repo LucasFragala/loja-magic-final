@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Loja Magic</title>
     <link rel="stylesheet" href="css/css.css">
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="js/abas.js"></script>
 </head>
 <body>
     <div id="principal">
